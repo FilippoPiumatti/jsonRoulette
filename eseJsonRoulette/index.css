@@ -1,0 +1,46 @@
+.casella{
+    width: 53px;
+    height: 53px;
+}
+#tappeto{
+    border: 3px solid red;
+    width: 839px;
+    height: 308px;
+    margin: 0px auto;
+    background-image: url("img/tappeto.jpg");
+    margin-top: 550px;
+}
+#leftFrame{
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-left: 100px; 
+    float:left;
+    height: 300px;
+    text-align: center;
+}
+#mainFrame{
+    border: 2px solid white;
+    margin: 0px auto;
+    height: 900px;
+}
+#roulette{
+    float: right;
+    margin-right: 900px; 
+    margin-top: 25px; 
+   
+}
+.btn{
+    width: 200px; 
+}
+p{
+    font-weight: bold;
+    border: 3px solid blue;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+td{
+    cursor: pointer;
+}
