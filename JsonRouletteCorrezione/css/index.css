@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.casella{
+    border: 3px solid olive;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+}
+
+#leftFrame{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+#mainFrame{
+    width: auto;
+    overflow: auto;
+}
+
+#tappeto{
+    width: 840px;
+    height: 305px;
+    background-color: darkgreen;
+    position: relative;
+    padding: 20px;
+    background-image: url("../img/tappeto.jpg");
+}
+.fiches{
+    background-image: url("../img/fiches.JPG");
+    width: 47px;
+    height: 47px;
+}
+img{
+    margin: 30px;
+}
+
+
+button{
+    width: 100%
+}
+
+#wrapper{
+    padding: 30px;
+}
+
+p{
+    display: inline-block;
+    border-radius: 25px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    font-weight: bold;
+    color: white;
+}
+
+.number{
+    display: inline-block;
+    border-radius: 25px;
+    width:50px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+
+.firstNum{
+    display: inline-block;
+    border-radius: 50px;
+    width:100px;
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38pt;
+}
